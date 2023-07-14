@@ -101,6 +101,7 @@ void main() {
     }
   }
   //====================================================================
+  //Caso seja escolhida uma opção invalida na pergunta de qual operação você deseja
   else {
     print("Escolha uma opção válida!");
     print("Fim do programa.");

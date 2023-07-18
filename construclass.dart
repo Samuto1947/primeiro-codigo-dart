@@ -3,6 +3,13 @@ class Pessoa {
  
   String nome;
   double peso;
+  get getNome => this.nome;
+
+ set setNome( nome) => this.nome = nome;
+
+  get getPeso => this.peso;
+
+ set setPeso( peso) => this.peso = peso;
 
   Pessoa(this.nome, this.peso);
   void comer() {
